@@ -1,0 +1,38 @@
+html {
+    background-color: gray;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.rect {
+    width: 117px;
+    height: 1000px;
+    display: inline-block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.sticky {
+    position: sticky;
+    top: 0px;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-green {
+    background-color: green;
+}

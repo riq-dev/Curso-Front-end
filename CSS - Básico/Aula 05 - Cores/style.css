@@ -1,0 +1,10 @@
+#text{
+	color: darkcyan;
+}
+#title{
+	color:#FF00FF;
+}
+.paragraph{
+	color:rgba(00, 100, 255, 0.5);
+	/* color: rgb(0, 200, 0); */
+}

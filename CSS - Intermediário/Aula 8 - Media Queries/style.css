@@ -1,0 +1,58 @@
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .header {
+        overflow: hidden;
+        margin: auto;
+        width: 80%;
+        background: #5C57A4;
+        padding: 15px;
+        font-size: 18px;
+    }
+    
+    .menu {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        float: right;
+    }
+    
+    li {
+        float: left;
+        color: white;
+        margin-right: 15px;
+    }
+    
+    .logo {
+        float: left;
+        color: white;
+    }
+    
+    @media screen and (max-width: 700px) {
+        .header {
+            background-color: grey;
+        }
+    }
+    
+    @media screen and (max-width: 400px) {
+        .header {
+            background: #060053;
+        }
+        .logo {
+            float: none;
+            text-align: center;
+        }
+        .menu {
+            margin-top: 20px;
+            float: none;
+            text-align: center;
+        }
+        li {
+            float: none;
+            margin-bottom: 5px;
+            padding: 10px;
+            margin-right: 0px;
+        }
+    }

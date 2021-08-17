@@ -1,0 +1,50 @@
+html {
+    background-color: gray;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.rect {
+    width: 100px;
+    height: 1000px;
+    display: inline-block;
+}
+
+.static {
+    position: static;
+}
+
+.fixed {
+    position: fixed;
+    left: 108px;
+    bottom: 0px;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+    bottom: 715px;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-green {
+    background-color: green;
+}

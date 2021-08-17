@@ -1,0 +1,24 @@
+h1 {
+    color: darkolivegreen;
+}
+
+p {
+    color: darkblue;
+}
+
+.container {
+    font-size: 20px;
+    width: 50%;
+    background-color: darkcyan;
+}
+
+.inside {
+    /*font-size: 2rem; rem: dobra o valor raiz do html
+    font-size: 1em; em: dobra o valor raiz setado
+    width: 15em;
+    width: 50vw; 
+    width: 50vh; 
+    width: 50vmin;*/
+    width: 100%;
+    background-color: darkolivegreen;
+}

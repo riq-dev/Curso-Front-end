@@ -1,0 +1,16 @@
+body {
+    font-size: 1.2rem;
+}
+
+#container {
+    color: black;
+    width: 800px;
+    height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+img {
+    /* width: 800px;
+    height: 500px; */
+}

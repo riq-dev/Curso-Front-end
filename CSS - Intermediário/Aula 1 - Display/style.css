@@ -1,0 +1,13 @@
+* {
+    text-align: justify;
+}
+
+p {
+    background-color: pink;
+}
+
+#kk {
+    background-color: pink;
+    display: inline-block;
+    width: 1000px;
+}

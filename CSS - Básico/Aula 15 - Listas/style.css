@@ -1,0 +1,34 @@
+html {
+    background-color: rgb(213, 228, 255);
+}
+
+ul {
+    list-style-image: url(image/check.png);
+}
+
+ol {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+ol,
+ul {
+    margin-left: -20px;
+}
+
+li {
+    padding: 7px;
+    border: 1px solid;
+    margin: 1px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+div {
+    background-color: gray;
+    padding: 10px;
+}

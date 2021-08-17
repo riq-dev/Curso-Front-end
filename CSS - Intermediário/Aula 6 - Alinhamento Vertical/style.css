@@ -1,0 +1,39 @@
+.card {
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 200px;
+    border: 2px solid green;
+    text-align: center;
+    margin-right: 0.5px
+}
+
+.card1 {
+    position: relative;
+    margin-left: auto;
+    width: 400px;
+    height: 200px;
+    border: 2px solid blue;
+    text-align: center;
+}
+
+.c1 {
+    background-color: green;
+    line-height: 200px;
+}
+
+.c2-5 {
+    background-color: greenyellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.c2 {
+    background-color: greenyellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

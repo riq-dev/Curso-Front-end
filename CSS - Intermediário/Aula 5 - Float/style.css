@@ -1,0 +1,45 @@
+html {
+    background-color: gray;
+}
+
+p {
+    clear: none;
+    /* both left*/
+    text-align: justify;
+    margin-right: 50px;
+}
+
+img {
+    width: 400px;
+    float: bottom;
+}
+
+#pc {
+    float: left;
+}
+
+#div {
+    float: top;
+    padding-bottom: 10px;
+    border: solid black;
+    overflow: auto;
+    background-color: black;
+}
+
+#div1 {
+    border: 1.5px solid black;
+    overflow: auto;
+    background-color: indianred;
+}
+
+li {
+    float: right;
+    list-style: none;
+    background-color: khaki;
+    padding: 10px;
+    margin: 5px;
+}
+
+ul {
+    clear: both;
+}

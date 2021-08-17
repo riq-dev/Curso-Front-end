@@ -1,0 +1,11 @@
+p {
+    color: blueviolet;
+    text-align: justify;
+    text-transform: uppercase;
+    text-indent: 35px;
+    text-decoration: underline line-through overline;
+    letter-spacing: 10px;
+    line-height: 50px;
+    word-spacing: 4px;
+    text-shadow: 1px 1px 1px darkcyan;
+}

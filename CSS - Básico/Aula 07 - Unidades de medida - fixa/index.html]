@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> website </title>	
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<a id="moonb" href="#moon"> <b><i>Black moon</i></b></a>
+	<div class="titles">
+		<h1> Título 1</h1>
+		<h2> Subtitle</h2>
+	</div>
+	<div id="divs">
+		<p class="paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+		<p class="paragraph">Texo em <b>negrito</b> utilizando a tag "b"</p>
+		<p class="paragraph">Texo em <strong>negrito</strong> utilizando a tag "strong"</p>
+		<p class="paragraph">Texto em <i>itálico</i> utilizando a tag "i"</p>
+		<p>Texto em <em>itálico</em> utilizando a tag "em"</p>
+		<p> Texto com <mark>marcação</mark> </p>
+		<p> Texto com a tag <small>"small"</small> </p>
+		<p>Texto <s>riscado</s> utilizando a tag "s"</p>
+		<p>Texto <del>riscado</del> utilizando a tag "del"</p>
+		<p>Texto que foi <u>inserido</u> com a tag "u"</p>
+		<p>Texto que foi <ins>inserido</ins> com a tag "ins"</p>
+		<p>Texto <sub>subscript</sub> </p>
+		<p>Texto <sup>superscript</sup> </p>
+	</div>
+	<img id="moon" src="https://images.hdqwalls.com/wallpapers/moon-5k-9e.jpg" alt="black moon" width="300">
+	<div id="cm"></div>
+	<div id="mm"></div>
+	<div id="in"></div>
+	<div id="px"></div>
+	<div id="pc"></div>
+	<div id="pt"></div>
+
+</body>
+</html>

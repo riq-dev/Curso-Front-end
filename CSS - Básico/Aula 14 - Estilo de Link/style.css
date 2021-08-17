@@ -1,0 +1,29 @@
+.links {
+    text-decoration: none;
+    color: #bc2035;
+    border: 2px solid #bc2035;
+    border-width: 1;
+    margin: 0px 1px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    font-size: 40px;
+}
+
+.links:hover {
+    background-color: red;
+    color: black;
+}
+
+.links:visited {
+    color: black;
+}
+
+.links:link {
+    color: red;
+}
+
+.links:active {
+    background: black;
+    color: white;
+}
