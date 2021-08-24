@@ -2,12 +2,20 @@
     text-align: justify;
 }
 
-p {
+#p {
     background-color: pink;
+    display: inline;
+    /*inline*/
 }
 
-#kk {
+p {
+    background-color: pink;
+    /*block*/
+}
+
+#cont {
     background-color: pink;
     display: inline-block;
     width: 1000px;
+    /*inline-block*/
 }
