@@ -22,7 +22,7 @@
     line-height: 200px;
 }
 
-.c2-5 {
+.c2 {
     background-color: greenyellow;
     position: absolute;
     top: 50%;
@@ -30,10 +30,10 @@
     transform: translate(-50%, -50%);
 }
 
-.c2 {
+.c3 {
     background-color: greenyellow;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
 }
