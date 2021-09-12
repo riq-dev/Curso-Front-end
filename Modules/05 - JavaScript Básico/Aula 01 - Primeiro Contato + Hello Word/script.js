@@ -1,0 +1,1 @@
+alert("Meu Primeiro alerta, em JavaScript!")
