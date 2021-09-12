@@ -1,7 +1,7 @@
 var a;
 
-a = "HD"
+a = "HD";
 
-b = a
+b = a;
 
 console.log(b)

@@ -1,1 +1,1 @@
-alert("Meu Primeiro alerta, em JavaScript!")
+alert("Meu Primeiro alerta, em JavaScript!");
