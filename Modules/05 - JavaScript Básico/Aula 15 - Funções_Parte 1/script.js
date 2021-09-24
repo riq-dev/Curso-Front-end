@@ -8,4 +8,4 @@ function media(n1, n2) {
 var resultado1 = media(6, 7);
 var resultado2 = media(8, 7);
 
-console.log(resultado1 + "e" + resultado2);
+console.log(resultado1 + " e " + resultado2);
