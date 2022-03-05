@@ -27,6 +27,6 @@
 <p>Objetivo: Criar uma página de uma Barbearia.
 <a href="https://github.com/riq-dev/Curso-Full-Stack/tree/main/Projetos/Projeto%20Barbearia">Repositório</a>
 <br>
-<img src="https://www.protecaomaxima.com.br/imgs/em_desenvolvimento.jpg" width=250px>
+<img src="https://github.com/riq-dev/Curso-Full-Stack/blob/main/Projetos/Projeto%20Barbearia/image/screencapture-127-0-0-1-5500-Curso-Full-Stack-Projetos-Projeto-Barbearia-index-html-2022-03-05-05_34_59.png" width=250px>
  
 </ol>
