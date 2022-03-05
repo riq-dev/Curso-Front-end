@@ -1,20 +1,6 @@
  <h1>Curso Full-Stack</h1>
- <p>Aqui eu armazeno todos códigos praticados ao decorrer do curso.</p>
- <h2>Front-end</h2>
- <ul>
- <li>HTML 5</li>
-<li>CSS 3</li>
-<li>Javascript</li>
-<li>jQuery</li>
-<li>BootStrap</li>
-<li>React</li>
-</ul>
-<h2>Back-end</h2>
-<ul>
-<li>Firebase</li>
-<li>NodeJS</li>
-<li>MongoDB</li>
-</ul>
+ <p>Aqui eu armazeno todos códigos/projetos feitos.</p>
+
 <h2>Desafios</h2>
 
 <ol>
