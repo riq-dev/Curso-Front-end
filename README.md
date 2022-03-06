@@ -1,7 +1,7 @@
  <h1>Curso Full-Stack</h1>
  <p>Aqui eu armazeno todos códigos/projetos feitos.</p>
 
-<h2>Desafios</h2>
+<h2>Desafios Concluídos</h2>
 
 <ol>
  
