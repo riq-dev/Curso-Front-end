@@ -1,48 +1,91 @@
-#banner {
-	width:100%;
+header {
+    background: #BBBBBB;
+    padding: 20px 0px;
 }
 
-.principal{
-	background: #CCCCCC;
-	padding: 30px;
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
-.titulo-principal {
-	padding-left: 20px;
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
 }
 
-.titulo-centralizado {
-	text-align: center
+nav li {
+    display: inline;
+    margin: 0px 0px 0px 5px;
 }
 
-p {
-	text-align: center;
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
 
-#missao {
-	font-size: 20px
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
 }
 
-em strong {
-	color: #FF0000;
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
 
-.itens {
-	font-style: italic
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 
-.beneficios {
-	background: #FFFFFF;
-	padding: 20px;
+.produtos li:hover {
+    color: #c78c19;
 }
 
-ul {
-	display: inline-block;
-	vertical-align: top;
-	width: 20%;
-	margin-right: 15%;
+.produtos li:active {
+    color: #088c19;
 }
 
-.imagembeneficios {
-	width: 50%;
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 22px;
+}
+
+.produto-preco {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+footer {
+    text-align: center;
+    background: url("./imagens/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 15px;
+    margin: 20px 0 0;
 }
