@@ -113,6 +113,30 @@ form legend {
     width: 50%;
 }
 
+fieldset select {
+    padding: 5px 0px 5px 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
 .checkbox {
     margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px;
+    background: orange;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+}
+
+.enviar:hover {
+    background-color: darkorange;
+    transition: 0.4s background;
+    cursor: pointer;
 }
