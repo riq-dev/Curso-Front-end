@@ -27,7 +27,7 @@
 <p>Objetivo: Criar uma página dinâmica.
 <a href="https://github.com/riq-dev/Curso-Full-Stack/tree/main/Projetos/Projeto%20Barbearia">Repositório</a>
 <br>
-<img src="https://www.ufrgs.br/nesh/wp-content/uploads/2016/02/desenvolvimento.png" width=250px>
+<img src="https://www.ufrgs.br/nesh/wp-content/uploads/2016/02/desenvolvimento.png" alt="em andamento..." width=250px>
  
  
 </ol>
