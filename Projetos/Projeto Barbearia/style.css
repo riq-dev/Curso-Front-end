@@ -146,3 +146,19 @@ select {
     /* transform: rotate(-1deg) scale(1.1); */
     transform: translateX(10px) rotate(-1deg) translateY(5px)
 }
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td,
+th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
