@@ -1,10 +1,7 @@
- <h1>Curso Full-Stack</h1>
+<h1>Desafios Concluídos</h1>
  <p>Aqui eu armazeno todos códigos/projetos feitos.</p>
 
-<h2>Desafios Concluídos</h2>
-
 <ol>
- 
 <li>Currículo</li>
 <p>Objetivo: Criar um currículo através das tags básicas do HTML. 
 <a href="https://github.com/riq-dev/Curso-Full-Stack/tree/main/Projetos/Projeto%20Html%20b%C3%A1sico">Repositório</a>
