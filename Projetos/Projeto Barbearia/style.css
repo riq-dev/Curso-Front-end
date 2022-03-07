@@ -109,11 +109,15 @@ form legend {
 .input-padrao {
     display: block;
     margin: 0 0 20px;
-    padding: 10px 25px;
+    padding: 10px 10px 10px 15px;
     width: 50%;
 }
 
-fieldset select {
+.input-padrao::placeholder {
+    font-size: 15px;
+}
+
+select {
     padding: 5px 0px 5px 15px;
     font-size: 15px;
     text-transform: uppercase;
@@ -137,6 +141,8 @@ fieldset select {
 
 .enviar:hover {
     background-color: darkorange;
-    transition: 0.4s background;
+    transition: 0.5s all;
     cursor: pointer;
+    /* transform: rotate(-1deg) scale(1.1); */
+    transform: translateX(10px) rotate(-1deg) translateY(5px)
 }
