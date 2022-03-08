@@ -9,7 +9,7 @@ header {
 
 .caixa {
     position: relative;
-    width: 980px;
+    width: 920px;
     margin: 0 auto;
 }
 
@@ -94,11 +94,6 @@ footer {
     margin: 20px 0 0;
 }
 
-main {
-    width: 940px;
-    margin: 0 auto;
-}
-
 form {
     margin: 40px 0;
 }
@@ -168,9 +163,10 @@ th {
 }
 
 
-/* CSS Home Pag */
+/*===============CSS - index===============---*/
 
 .banner {
+    height: 650px;
     width: 100%;
 }
 
@@ -179,6 +175,21 @@ th {
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+}
+
+.titulo-principal::before {
+    content: "[ ";
+}
+
+.titulo-principal::after {
+    content: " ]";
+}
+
+.principal {
+    padding: 3em 0;
+    background-color: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .principal p {
@@ -199,6 +210,85 @@ th {
     margin: 0 20px 20px 0;
 }
 
-.imagembeneficios {
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.beneficios {
+    padding: 3em 0;
+    background-color: #888888;
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    line-height: 1.5;
+}
+
+.itens:nth-child(1) {
+    font-weight: bold;
+}
+
+.itens::before {
+    content: "\1F7C2  ";
+}
+
+.imagem-beneficios {
     width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 8px #000000;
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.95;
+}
+
+.video {
+    width: 560px;
+    margin: 2em auto;
+}
+
+iframe {
+    box-shadow: 0 0 50px black;
+}
+
+@media screen and (max-width: 480px) {
+    .caixa,
+    .principal,
+    .conteudo-beneficios,
+    .mapa-conteudo,
+    .video {
+        width: auto;
+    }
+    h1 {
+        text-align: center;
+    }
+    nav {
+        position: static;
+    }
+    .lista-beneficios,
+    imagem-beneficios {
+        width: 100%
+    }
 }
