@@ -1,1 +1,0 @@
-alert("Fui carregado de um arquivo externo...")
