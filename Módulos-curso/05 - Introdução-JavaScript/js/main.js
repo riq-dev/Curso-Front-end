@@ -1,6 +1,8 @@
 var titulo = document.querySelector(".titulo");
 titulo.textContent = "Nutricionista";
 
+var adicionar = document.querySelector("#adicionar-paciente");
+
 var pacientes = document.querySelectorAll(".paciente");
 
 for (var i = 0; i < pacientes.length; i++) {
@@ -24,15 +26,15 @@ for (var i = 0; i < pacientes.length; i++) {
     if (pesoValido == false) {
         tdImc.textContent = "Peso inválido";
         paciente.classList.add("invalid");
-        if (pesoValido == false && alturaValida == false) {
-            tdImc.textContent = "Peso e Altura inválida";
-            paciente.classList.add("invalid");
-        }
     }
 
     if (alturaValida == false) {
         tdImc.textContent = "Altura inválida";
         paciente.classList.add("invalid");
+        if (pesoValido == false && alturaValida == false) {
+            tdImc.textContent = "Peso e Altura inválida";
+            paciente.classList.add("invalid");
+        }
     }
 
     if (pesoValido && alturaValida) {
@@ -41,3 +43,8 @@ for (var i = 0; i < pacientes.length; i++) {
     }
 
 }
+
+adicionar.addEventListener("click", function(e) {
+    e.preventDefault();
+    console.log("Olá, eu fui clicado!");
+});
