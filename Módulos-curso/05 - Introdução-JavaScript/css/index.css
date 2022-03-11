@@ -140,3 +140,7 @@ button:disabled {
 .invalid {
     background-color: rgb(255, 175, 175);
 }
+
+#mensagem-erro {
+    color: red;
+}
