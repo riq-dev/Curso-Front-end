@@ -147,5 +147,12 @@ button:disabled {
 
 .fadeOut {
     opacity: 0;
+    background: rgb(255, 106, 106);
     transition: 0.5s;
+}
+
+#filtrar-tabela {
+    width: 200px;
+    height: 35px;
+    margin-bottom: 10px;
 }
