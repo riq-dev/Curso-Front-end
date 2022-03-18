@@ -15,6 +15,12 @@ botaoAdicionar.addEventListener("click", function() {
         pacientes.forEach(function(paciente) {
             adicionaPacienteNaTabela(paciente);
         });
+
+        for (let i = 0; i < pacientes.length; i++) {
+            var paciente = pacientes[i];
+            adicionaPacienteNaTabela(paciente);
+        }
     });
+
     xhr.send();
 });

@@ -138,7 +138,8 @@ button:disabled {
 }
 
 .invalid {
-    background-color: rgb(255, 175, 175);
+    background-color: rgb(10, 10, 10);
+    color: white;
 }
 
 #mensagens-erro {
@@ -147,8 +148,7 @@ button:disabled {
 
 .fadeOut {
     opacity: 0;
-    ,
-    207);
+    background: #ccc;
     transition: 0.5s;
 }
 
