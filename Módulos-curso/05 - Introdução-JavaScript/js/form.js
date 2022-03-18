@@ -1,27 +1,31 @@
 var botaoAdicionar = document.querySelector("#adicionar-paciente");
-botaoAdicionar.addEventListener("click", function(e) {
-    e.preventDefault();
+botaoAdicionar.addEventListener("click", function(event) {
+    event.preventDefault();
 
     var form = document.querySelector("#form-adiciona");
-
-    var paciente = obtemPacienteFormulario(form);
-    var pacienteTr = montaTr(paciente);
+    var paciente = obtemPacienteDoFormulario(form);
 
     var erros = validaPaciente(paciente);
-
+    console.log(erros);
     if (erros.length > 0) {
         exibeMensagensDeErro(erros);
         return;
     }
 
-    var tabela = document.querySelector("#tabela-pacientes");
-    tabela.appendChild(pacienteTr);
+    adicionaPacienteNaTabela(paciente);
 
     form.reset();
 
-    var mensagensDeErro = document.querySelector("#mensagens-erro");
-    mensagensDeErro.innerHTML = "";
+    var mensagensErro = document.querySelector("#mensagens-erro");
+    mensagensErro.innerHTML = "";
+
 });
+
+function adicionaPacienteNaTabela(paciente) {
+    var pacienteTr = montaTr(paciente);
+    var tabela = document.querySelector("#tabela-pacientes");
+    tabela.appendChild(pacienteTr);
+}
 
 function exibeMensagensDeErro(erros) {
     var ul = document.querySelector("#mensagens-erro");
