@@ -39,7 +39,7 @@ function exibeMensagensDeErro(erros) {
     });
 }
 
-function obtemPacienteFormulario(form) {
+function obtemPacienteDoFormulario(form) {
     var paciente = {
         nome: form.nome.value,
         peso: form.peso.value,
